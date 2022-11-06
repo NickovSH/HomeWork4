@@ -34,7 +34,6 @@ def Striped_Words():
 
         #Преобразование слова в список
         Words_to_List = list(Text[Words])
-        print(Words_to_List)
 
         #Если длина слова - нечетная
         if len(Words_to_List) == 1:
@@ -135,10 +134,5 @@ def Striped_Words():
 
                 if Boolean_Label == True:
                     Sum_of_words += 1
-                    print('Сумма = ', Sum_of_words)
 
-    print(Sum_of_words)
-
-
-
-Striped_Words()
+    print('Result = ', Sum_of_words)
